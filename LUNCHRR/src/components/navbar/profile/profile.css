@@ -29,6 +29,7 @@
     line-height: normal;
 }
 .user-position{
+    margin-top: 8px;
     display: flex;
     width: 210px;
     height: 20px;

@@ -5,6 +5,7 @@
     font-family: "Poppins" , sans-serif;
 }
 nav{
+    padding-right: 2px;
     width: 255px;
     height: 100lvh;
     background-color: #30324A;
