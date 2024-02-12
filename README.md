@@ -7,3 +7,6 @@ Team:
         - Shito (Tuguldur .O)
         - Tuguldur
 
+Commit FEB.12 
+drop component transition has to be fixed
+

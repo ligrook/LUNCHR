@@ -2,10 +2,35 @@
     margin: 8px 0;
     width: 100%;
     height: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     border: var(--Number, 1px) solid var(--Accent-pink, #B26CAF);
+    transition: 300ms;
+    /* animation: ease-in; */
+    position: relative;
+}
+
+.drop-down-menu > .button-container{
+    transition: 300ms;
+    animation: ease-in;
+    display: none;
+}
+
+.drop-down-menu:hover >.button-container{
+   
+    display: flex;
+    flex-direction: column;
+    transition: 300ms;
+    animation: ease-in;
+   
+}
+.drop-down-menu:hover > .visible > img {
+    transform: rotate(180deg);
+}
+.drop-down-menu:hover{
+    transition: 300ms;
 }
 .visible{
     width: 100%;
@@ -21,6 +46,7 @@
     font-weight: 400;
     line-height: normal;
 }
-/* img{
+
+/* .img{
     transform: rotate(180deg);
 } */

@@ -7,7 +7,9 @@
 nav{
     padding-right: 2px;
     width: 255px;
-    height: 100lvh;
+    height: fit-content;
+    min-height: 110lvh;
     background-color: #30324A;
+
 }
          
