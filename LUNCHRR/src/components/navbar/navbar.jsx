@@ -10,8 +10,12 @@ export default function Navbar(){
                 position={"Position"}
             />
             
-       
-            <Drop gradeName={"12"}
+        <Button
+            btnName={"Add card"}/>
+
+        <Button
+            btnName={"Delete card"}/>
+             <Drop gradeName={"12"}
             btnName={"12"}/>
             <Drop gradeName={"11"}
             btnName={"11"}/>
@@ -25,12 +29,6 @@ export default function Navbar(){
             btnName={"7"}/>
             <Drop gradeName={"6"}
             btnName={"6"}/>
-
-        <Button
-            btnName={"Add card"}/>
-
-        <Button
-            btnName={"Delete card"}/>
         </nav>
         
     )
