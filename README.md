@@ -9,7 +9,3 @@ Team:
 
 Commit FEB.12 
 drop component transition has to be fixed
-
-"# Ligrook" 
-"# Ly" 
-"# Ligrook" 
