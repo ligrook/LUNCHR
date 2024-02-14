@@ -9,12 +9,13 @@ export default function Navbar(){
                 name={"Name"}
                 position={"Position"}
             />
-            
+        <section className="scroll"> 
         <Button
             btnName={"Add card"}/>
 
         <Button
             btnName={"Delete card"}/>
+       
              <Drop gradeName={"12"}
             btnName={"12"}/>
             <Drop gradeName={"11"}
@@ -29,6 +30,7 @@ export default function Navbar(){
             btnName={"7"}/>
             <Drop gradeName={"6"}
             btnName={"6"}/>
+        </section>
         </nav>
         
     )

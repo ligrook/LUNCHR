@@ -1,9 +1,9 @@
 import "./delete.css"
-// import Select from "./select/select"
+
 import Navbar from "../navbar/navbar"
 import ButtonMain from "../mainButton/buttonMain"
 import Search from "./search/search"
-
+import Card from "./card/card"
 
 export default function Delete(){
     return(
@@ -12,17 +12,19 @@ export default function Delete(){
             <section className="main">
                 <Search/>
                     <section className="display">
-                                {/* <Select
-                                    class={"11.1"}
-                                    name={"Saran-Ochir"}
-                                /> */}
+                        <Card
+                            grade={"11.1"}
+                            name={"Saran-Ochir"}
+                            surname={".S"}
+                        />
+                    
                     </section>
                 
-            <section className="button-container">
+                <section className="button-container">
 
-            <ButtonMain buttonname={"Delete user"}/>
+                    <ButtonMain buttonname={"Delete user"}/>
 
-            </section>
+                </section>
                 
             </section>
         </section>

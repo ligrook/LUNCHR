@@ -14,10 +14,12 @@ input.search-bar-input{
     color: var(--Dark-blue, #30324A);
     height: 100%;
     border: none;
+    background-color: transparent;
 }
 input.search-bar-input[type=text]:focus{
     height: 100%;
     border: transparent;
+    background-color: transparent;
 }
 ::placeholder{
     width: 100%;
