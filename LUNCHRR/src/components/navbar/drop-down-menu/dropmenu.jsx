@@ -20,7 +20,9 @@ export default function Drop(props){
             </div>
             <div className="button-container" id="buttons">
                 <Button btnName={props.btnName + ".1"}/>
+                <hr></hr>
                 <Button btnName={props.btnName + ".2"}/>
+                <hr></hr>
                 <Button btnName={props.btnName + ".3"}/>
             </div>
         </div>
