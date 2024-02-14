@@ -31,6 +31,11 @@ div.drop-down-menu:hover{
     height: auto;
     transition: 300ms;
 }
+hr{
+    width: 210px;
+    margin-left: 20px;
+    border: var(--Number, 1px) solid var(--Accent-pink, #B26CAF);
+}
 div.drop-down-menu:hover >div.button-container{
     
     display: flex;
@@ -50,7 +55,12 @@ div.drop-down-menu:hover >div.button-container{
 }
 
 .drop-down-menu:hover{
-    transition: 300ms;
+    width: 245px;
+    height: 200px;
+    margin-left: 4.5px;
+    box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 0px 1px 4px rgba(0,0,0,0.14);
 }
 .visible{
     width: 100%;
